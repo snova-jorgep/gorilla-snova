@@ -1759,6 +1759,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
+    "groq/qwen/qwen3-32b-FC": ModelConfig(
+        model_name="qwen/qwen3-32b-FC",
+        display_name="/qwen/qwen3-32b (FC)",
+        url="https://www.anthropic.com/news/3-5-models-and-computer-use",
+        org="groq",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=3,
+        output_price=15,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
 
     "cerebras/llama-3.3-70b-FC": ModelConfig(
         model_name="llama-3.3-70b-FC",
@@ -1894,9 +1906,9 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
-    "together/meta-llama/Llama-3.3-70B-Instruct-Turbo-Free-FC": ModelConfig(
-        model_name="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free-FC",
-        display_name="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free (FC)",
+    "together/meta-llama/Llama-3.3-70B-Instruct-Turbo-FC": ModelConfig(
+        model_name="meta-llama/Llama-3.3-70B-Instruct-Turbo-FC",
+        display_name="meta-llama/Llama-3.3-70B-Instruct-Turbo (FC)",
         url="https://www.anthropic.com/news/3-5-models-and-computer-use",
         org="together",
         license="Proprietary",
