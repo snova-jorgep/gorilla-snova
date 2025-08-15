@@ -23,7 +23,7 @@ CSV_HEADERS = [
     "provider",
     "n_samples",
     "date",
-    "DeepSeek-R1-0528"
+    "DeepSeek-R1-0528",
     "DeepSeek-V3-0324",
     "Llama-4-Maverick-17B-128E-Instruct",
     "Llama-4-Scout-17B-16E-Instruct",
