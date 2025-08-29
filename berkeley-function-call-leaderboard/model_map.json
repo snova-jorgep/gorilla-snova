@@ -28,6 +28,10 @@
   "fireworks_accounts_fireworks_models_deepseek-r1-0528-FC": "DeepSeek-R1-0528",
   "together_deepseek-ai_DeepSeek-R1-FC": "DeepSeek-R1-0528",
 
+  "sambanova_DeepSeek-V3.1-FC": "DeepSeek-V3.1",
+  "fireworks_accounts_fireworks_models_deepseek-v3p1-FC": "DeepSeek-V3.1",
+  "together_deepseek-ai_DeepSeek-V3.1-FC": "DeepSeek-V3.1",
+
   "sambanova_Qwen3-32B-FC": "Qwen3-32B",
   "fireworks_accounts_fireworks_models_qwen3-30b-a3b-FC": "Qwen3-32B",
   "cerebras_qwen-3-32b-FC": "Qwen3-32B",

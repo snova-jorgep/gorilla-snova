@@ -170,6 +170,7 @@ SUPPORTED_MODELS = [
     "sambanova/Llama-4-Maverick-17B-128E-Instruct-FC",
     "sambanova/DeepSeek-V3-0324-FC",
     "sambanova/DeepSeek-R1-0528-FC",
+    "sambanova/DeepSeek-V3.1-FC",
     "sambanova/Qwen3-32B-FC",
     "groq/llama-3.3-70b-versatile-FC",
     "groq/meta-llama/llama-4-scout-17b-16e-instruct-FC",
@@ -184,6 +185,7 @@ SUPPORTED_MODELS = [
     "fireworks/accounts/fireworks/models/llama4-maverick-instruct-basic-FC",
     "fireworks/accounts/fireworks/models/deepseek-v3-0324-FC",
     "fireworks/accounts/fireworks/models/deepseek-r1-0528-FC",
+    "fireworks/accounts/fireworks/models/deepseek-v3p1-FC",
     "fireworks/accounts/fireworks/models/qwen3-30b-a3b-FC",
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
     "together/meta-llama/Llama-3.3-70B-Instruct-Turbo-FC",
@@ -191,5 +193,6 @@ SUPPORTED_MODELS = [
     "together/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-FC",
     "together/deepseek-ai/DeepSeek-V3-FC",
     "together/deepseek-ai/DeepSeek-R1-FC",
+    "together/deepseek-ai/DeepSeek-V3.1-FC",
     "together/Qwen/Qwen3-235B-A22B-fp8-tput-FC",
 ]
