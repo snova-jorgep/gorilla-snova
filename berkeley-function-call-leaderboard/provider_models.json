@@ -5,18 +5,21 @@
     "sambanova/DeepSeek-V3-0324-FC",
     "sambanova/DeepSeek-R1-0528-FC",
     "sambanova/DeepSeek-V3.1-FC",
-    "sambanova/Qwen3-32B-FC"
+    "sambanova/Qwen3-32B-FC",
+    "sambanova/gpt-oss-120b-FC"
   ],
   "groq": [
     "groq/llama-3.3-70b-versatile-FC",
     "groq/meta-llama/llama-4-scout-17b-16e-instruct-FC",
     "groq/meta-llama/llama-4-maverick-17b-128e-instruct-FC",
-    "groq/qwen/qwen3-32b"
+    "groq/qwen/qwen3-32b",
+    "groq/openai/gpt-oss-120b-FC"
   ],
   "cerebras": [
     "cerebras/llama-3.3-70b-FC",
     "cerebras/llama-4-scout-17b-16e-instruct-FC",
-    "cerebras/qwen-3-32b-FC"
+    "cerebras/qwen-3-32b-FC",
+    "cerebras/gpt-oss-120b-FC"
   ],
   "fireworks": [
     "fireworks/accounts/fireworks/models/llama-v3p1-405b-instruct-FC",
@@ -26,7 +29,8 @@
     "fireworks/accounts/fireworks/models/deepseek-v3-0324-FC",
     "fireworks/accounts/fireworks/models/deepseek-r1-0528-FC",
     "fireworks/accounts/fireworks/models/deepseek-v3p1-FC",
-    "fireworks/accounts/fireworks/models/qwen3-30b-a3b-FC"
+    "fireworks/accounts/fireworks/models/qwen3-30b-a3b-FC",
+    "fireworks/accounts/fireworks/models/gpt-oss-120b-FC"
   ],
   "together": [
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
@@ -36,6 +40,7 @@
     "together/deepseek-ai/DeepSeek-V3-FC",
     "together/deepseek-ai/DeepSeek-R1-FC",
     "together/deepseek-ai/DeepSeek-V3.1-FC",
-    "together/Qwen/Qwen3-235B-A22B-fp8-tput-FC"
+    "together/Qwen/Qwen3-235B-A22B-fp8-tput-FC",
+    "together/openai/gpt-oss-120b-FC"
   ]
 }

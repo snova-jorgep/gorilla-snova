@@ -1734,6 +1734,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
+    "sambanova/gpt-oss-120b-FC": ModelConfig(
+        model_name="gpt-oss-120b-FC",
+        display_name="gpt-oss-120b (FC)",
+        url="https://www.anthropic.com/news/3-5-models-and-computer-use",
+        org="sambanova",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=3,
+        output_price=15,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
     "groq/llama-3.3-70b-versatile-FC": ModelConfig(
         model_name="llama-3.3-70b-versatile-FC",
         display_name="llama-3.3-70b-versatile (FC)",
@@ -1782,7 +1794,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
-
+    "groq/openai/gpt-oss-120b-FC": ModelConfig(
+        model_name="openai/gpt-oss-120b-FC",
+        display_name="openai/gpt-oss-120b (FC)",
+        url="https://www.anthropic.com/news/3-5-models-and-computer-use",
+        org="groq",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=3,
+        output_price=15,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
     "cerebras/llama-3.3-70b-FC": ModelConfig(
         model_name="llama-3.3-70b-FC",
         display_name="llama-3.3-70b (FC)",
@@ -1819,7 +1842,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
-
+    "cerebras/gpt-oss-120b-FC": ModelConfig(
+        model_name="gpt-oss-120b-FC",
+        display_name="gpt-oss-120b (FC)",
+        url="https://www.anthropic.com/news/3-5-models-and-computer-use",
+        org="cerebras",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=3,
+        output_price=15,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
     "fireworks/accounts/fireworks/models/llama-v3p1-405b-instruct-FC": ModelConfig(
         model_name="accounts/fireworks/models/llama-v3p1-405b-instruct-FC",
         display_name="accounts/fireworks/models/llama-v3p1-405b-instruct (FC)",
@@ -1916,7 +1950,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
-
+    "fireworks/accounts/fireworks/models/gpt-oss-120b-FC": ModelConfig(
+        model_name="accounts/fireworks/models/gpt-oss-120b-FC",
+        display_name="accounts/fireworks/models/gpt-oss-120b (FC)",
+        url="https://www.anthropic.com/news/3-5-models-and-computer-use",
+        org="fireworks",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=3,
+        output_price=15,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC": ModelConfig(
         model_name="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
         display_name="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo (FC)",
@@ -2012,7 +2057,17 @@ local_inference_model_map = {
         output_price=15,
         is_fc_model=True,
     ),
-    
+    "together/openai/gpt-oss-120b-FC": ModelConfig(
+        model_name="openai/gpt-oss-120b-FC",
+        display_name="openai/gpt-oss-120b (FC)",
+        url="https://www.anthropic.com/news/3-5-models-and-computer-use",
+        org="together",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=3,
+        output_price=15,
+        is_fc_model=True,
+    ),
     "Team-ACE/ToolACE-2-8B": ModelConfig(
         model_name="Team-ACE/ToolACE-2-8B",
         display_name="ToolACE-2-8B (FC)",
