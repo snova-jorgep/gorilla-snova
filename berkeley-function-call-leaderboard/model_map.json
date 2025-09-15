@@ -45,8 +45,8 @@
   "groq_openai_gpt-oss-120b-FC":"gpt-oss-120b",
 
   "sambanova_Meta-Llama-3.1-8B-Instruct-FC": "Meta-Llama-3.1-8B-Instruct",
-  "fireworks_accounts_fireworks_models_llama-v3p1-8b-instruct-FC": "accounts/fireworks/models/llama-v3p1-8b-instruct",
-  "cerebras_llama3.1-8b-FC": "llama3.1-8b",
-  "together_meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo-FC": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-  "groq_llama-3.1-8b-instant-FC":"llama-3.1-8b-instant"
+  "fireworks_accounts_fireworks_models_llama-v3p1-8b-instruct-FC": "Meta-Llama-3.1-8B-Instruct",
+  "cerebras_llama3.1-8b-FC": "Meta-Llama-3.1-8B-Instruct",
+  "together_meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo-FC": "Meta-Llama-3.1-8B-Instruct",
+  "groq_llama-3.1-8b-instant-FC":"Meta-Llama-3.1-8B-Instruct"
 }
