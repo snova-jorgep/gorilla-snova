@@ -7,7 +7,8 @@
     "sambanova/DeepSeek-V3.1-FC",
     "sambanova/Qwen3-32B-FC",
     "sambanova/gpt-oss-120b-FC",
-    "sambanova/Meta-Llama-3.1-8B-Instruct-FC"
+    "sambanova/Meta-Llama-3.1-8B-Instruct-FC",
+    "sambanova/DeepSeek-V3.1-Terminus-FC"
   ],
   "groq": [
     "groq/llama-3.3-70b-versatile-FC",
@@ -34,7 +35,8 @@
     "fireworks/accounts/fireworks/models/deepseek-v3p1-FC",
     "fireworks/accounts/fireworks/models/qwen3-30b-a3b-FC",
     "fireworks/accounts/fireworks/models/gpt-oss-120b-FC",
-    "fireworks/accounts/fireworks/models/llama-v3p1-8b-instruct-FC"
+    "fireworks/accounts/fireworks/models/llama-v3p1-8b-instruct-FC",
+    "fireworks/accounts/fireworks/models/deepseek-v3p1-terminus-FC"
   ],
   "together": [
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",

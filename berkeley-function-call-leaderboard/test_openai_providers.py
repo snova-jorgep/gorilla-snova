@@ -25,9 +25,13 @@ CSV_HEADERS = [
     "date",
     "DeepSeek-R1-0528",
     "DeepSeek-V3-0324",
+    "DeepSeek-V3.1",
+    "DeepSeek-V3.1-Terminus",
+    "gpt-oss-120b",
     "Llama-4-Maverick-17B-128E-Instruct",
     "Llama-4-Scout-17B-16E-Instruct",
     "Meta-Llama-3.1-405B-Instruct",
+    "Meta-Llama-3.1-8B-Instruct",
     "Meta-Llama-3.3-70B-Instruct",
     "Qwen3-32B",
 ]
