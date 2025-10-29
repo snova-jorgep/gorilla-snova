@@ -39,6 +39,10 @@ class OpenaiCompatibleHandler(OpenAIHandler):
             base_url = "https://api.together.xyz/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("TOGETHER_API_KEY"),
                                   max_retries=1, timeout=30)
+        elif self.compatible_provider == "novita":
+            base_url = "https://api.novita.ai/openai/v1"
+            self.client = OpenAI(base_url=base_url, api_key=os.getenv("NOVITA_API_KEY"),
+                                  max_retries=1, timeout=30)
         else:
             raise(Exception(f"{self.compatible_provider} not implemented"))
 

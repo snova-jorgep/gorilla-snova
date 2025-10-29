@@ -49,5 +49,17 @@
     "together/Qwen/Qwen3-235B-A22B-fp8-tput-FC",
     "together/openai/gpt-oss-120b-FC",
     "together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-FC"
+  ],
+  "novita": [
+    "novita/meta-llama/llama-3.3-70b-instruct-FC",
+    "novita/meta-llama/llama-4-scout-17b-16e-instruct-FC",
+    "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8-FC",
+    "novita/deepseek/deepseek-v3-0324-FC",
+    "novita/deepseek/deepseek-v3.1-FC",
+    "novita/deepseek/deepseek-r1-0528-FC",
+    "novita/qwen/qwen3-32b-fp8-FC",
+    "novita/openai/gpt-oss-120b-FC",
+    "novita/meta-llama/llama-3.1-8b-instruct-FC",
+    "novita/deepseek/deepseek-v3.1-terminus-FC"
   ]
 }
