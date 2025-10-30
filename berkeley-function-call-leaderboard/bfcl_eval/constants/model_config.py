@@ -1637,7 +1637,7 @@ local_inference_model_map = {
         is_fc_model=False,
         underscore_to_dot=False,
     ),
-    
+
     "sambanova/Meta-Llama-3.1-405B-Instruct-FC": ModelConfig(
         model_name="Meta-Llama-3.1-405B-Instruct-FC",
         display_name="Meta-Llama-3.1-405B-Instruct (FC)",
@@ -2128,6 +2128,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "together/openai/gpt-oss-120b-FC": ModelConfig(
         model_name="openai/gpt-oss-120b-FC",
@@ -2139,6 +2140,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-FC": ModelConfig(
         model_name="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-FC",
@@ -2150,6 +2152,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/meta-llama/llama-3.3-70b-instruct-FC": ModelConfig(
         model_name="meta-llama/llama-3.3-70b-instruct-FC",
@@ -2161,6 +2164,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/meta-llama/llama-4-scout-17b-16e-instruct-FC": ModelConfig(
         model_name="meta-llama/llama-4-scout-17b-16e-instruct-FC",
@@ -2172,6 +2176,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8-FC": ModelConfig(
         model_name="meta-llama/llama-4-maverick-17b-128e-instruct-fp8-FC",
@@ -2183,6 +2188,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/deepseek/deepseek-v3-0324-FC": ModelConfig(
         model_name="deepseek/deepseek-v3-0324-FC",
@@ -2194,6 +2200,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/deepseek/deepseek-v3.1-FC": ModelConfig(
         model_name="deepseek/deepseek-v3.1-FC",
@@ -2205,6 +2212,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/deepseek/deepseek-r1-0528-FC": ModelConfig(
         model_name="deepseek/deepseek-r1-0528-FC",
@@ -2216,6 +2224,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/qwen/qwen3-32b-fp8-FC": ModelConfig(
         model_name="qwen/qwen3-32b-fp8-FC",
@@ -2227,6 +2236,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/openai/gpt-oss-120b-FC": ModelConfig(
         model_name="openai/gpt-oss-120b-FC",
@@ -2238,6 +2248,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/meta-llama/llama-3.1-8b-instruct-FC": ModelConfig(
         model_name="meta-llama/llama-3.1-8b-instruct-FC",
@@ -2249,6 +2260,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     "novita/deepseek/deepseek-v3.1-terminus-FC": ModelConfig(
         model_name="deepseek/deepseek-v3.1-terminus-FC",
@@ -2260,6 +2272,7 @@ local_inference_model_map = {
         input_price=3,
         output_price=15,
         is_fc_model=True,
+        underscore_to_dot=True,
     ),
     
     "Team-ACE/ToolACE-2-8B": ModelConfig(
