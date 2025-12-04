@@ -8,7 +8,8 @@
     "sambanova/Qwen3-32B-FC",
     "sambanova/gpt-oss-120b-FC",
     "sambanova/Meta-Llama-3.1-8B-Instruct-FC",
-    "sambanova/DeepSeek-V3.1-Terminus-FC"
+    "sambanova/DeepSeek-V3.1-Terminus-FC",
+    "sambanova/Qwen3-235B-FC"
   ],
   "groq": [
     "groq/llama-3.3-70b-versatile-FC",
@@ -23,7 +24,8 @@
     "cerebras/llama-4-scout-17b-16e-instruct-FC",
     "cerebras/qwen-3-32b-FC",
     "cerebras/gpt-oss-120b-FC",
-    "cerebras/llama3.1-8b-FC"
+    "cerebras/llama3.1-8b-FC",
+    "cerebras/qwen-3-235b-a22b-instruct-2507-FC"
   ],
   "fireworks": [
     "fireworks/accounts/fireworks/models/llama-v3p1-405b-instruct-FC",
@@ -33,10 +35,11 @@
     "fireworks/accounts/fireworks/models/deepseek-v3-0324-FC",
     "fireworks/accounts/fireworks/models/deepseek-r1-0528-FC",
     "fireworks/accounts/fireworks/models/deepseek-v3p1-FC",
-    "fireworks/accounts/fireworks/models/qwen3-30b-a3b-FC",
+    "fireworks/accounts/fireworks/models/qwen3-32b-FC",
     "fireworks/accounts/fireworks/models/gpt-oss-120b-FC",
     "fireworks/accounts/fireworks/models/llama-v3p1-8b-instruct-FC",
-    "fireworks/accounts/fireworks/models/deepseek-v3p1-terminus-FC"
+    "fireworks/accounts/fireworks/models/deepseek-v3p1-terminus-FC",
+    "fireworks/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507-FC"
   ],
   "together": [
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
@@ -46,9 +49,10 @@
     "together/deepseek-ai/DeepSeek-V3-FC",
     "together/deepseek-ai/DeepSeek-R1-FC",
     "together/deepseek-ai/DeepSeek-V3.1-FC",
-    "together/Qwen/Qwen3-235B-A22B-fp8-tput-FC",
+    "together/Qwen/Qwen3-32B-FC",
     "together/openai/gpt-oss-120b-FC",
-    "together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-FC"
+    "together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-FC",
+    "together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput-FC"
   ],
   "novita": [
     "novita/meta-llama/llama-3.3-70b-instruct-FC",
@@ -60,6 +64,7 @@
     "novita/qwen/qwen3-32b-fp8-FC",
     "novita/openai/gpt-oss-120b-FC",
     "novita/meta-llama/llama-3.1-8b-instruct-FC",
-    "novita/deepseek/deepseek-v3.1-terminus-FC"
+    "novita/deepseek/deepseek-v3.1-terminus-FC",
+    "novita/qwen/qwen3-235b-a22b-instruct-2507-FC"
   ]
 }

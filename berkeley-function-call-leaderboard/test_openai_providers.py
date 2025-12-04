@@ -34,6 +34,7 @@ CSV_HEADERS = [
     "Meta-Llama-3.1-8B-Instruct",
     "Meta-Llama-3.3-70B-Instruct",
     "Qwen3-32B",
+    "Qwen3-235B",
 ]
 DEFAULT_SEED = 42
 DATASETS_PREFIX = "BFCL_v3_"

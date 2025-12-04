@@ -39,9 +39,9 @@
   "novita_deepseek_deepseek-r1-0528-FC": "DeepSeek-R1-0528",
 
   "sambanova_Qwen3-32B-FC": "Qwen3-32B",
-  "fireworks_accounts_fireworks_models_qwen3-30b-a3b-FC": "Qwen3-32B",
+  "fireworks_accounts_fireworks_models_qwen3-32b-FC": "Qwen3-32B",
   "cerebras_qwen-3-32b-FC": "Qwen3-32B",
-  "together_Qwen_Qwen3-235B-A22B-fp8-tput-FC": "Qwen3-32B",
+  "Qwen/Qwen3-32B": "Qwen3-32B",
   "groq_qwen_qwen3-32b-FC":"Qwen3-32B",
   "novita_qwen_qwen3-32b-fp8-FC": "Qwen3-32B",
 
@@ -61,5 +61,11 @@
 
   "sambanova_DeepSeek-V3.1-Terminus-FC": "DeepSeek-V3.1-Terminus",
   "fireworks_accounts_fireworks_models_deepseek-v3p1-terminus-FC": "DeepSeek-V3.1-Terminus",
-  "novita_deepseek_deepseek-v3.1-terminus-FC": "DeepSeek-V3.1-Terminus"
+  "novita_deepseek_deepseek-v3.1-terminus-FC": "DeepSeek-V3.1-Terminus",
+
+  "sambanova_Qwen3-235B-FC": "Qwen3-235B",
+  "fireworks_accounts_fireworks_models_qwen3-235b-a22b-instruct-2507-FC": "Qwen3-235B",
+  "cerebras_qwen-3-235b-a22b-instruct-2507-FC": "Qwen3-235B",
+  "together_Qwen_Qwen3-235B-A22B-Instruct-2507-tput-FC": "Qwen3-235B",
+  "novita_qwen_qwen3-235b-a22b-instruct-2507-FC": "Qwen3-235B"
 }
