@@ -1782,6 +1782,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
+    "sambanova/DeepSeek-V3.2-FC": ModelConfig(
+        model_name="DeepSeek-V3.2-FC",
+        display_name="DeepSeek-V3.2 (FC)",
+        url="https://www.anthropic.com/news/3-5-models-and-computer-use",
+        org="Sambanova",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=3,
+        output_price=15,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
     "groq/llama-3.3-70b-versatile-FC": ModelConfig(
         model_name="llama-3.3-70b-versatile-FC",
         display_name="llama-3.3-70b-versatile (FC)",

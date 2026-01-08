@@ -9,7 +9,8 @@
     "sambanova/gpt-oss-120b-FC",
     "sambanova/Meta-Llama-3.1-8B-Instruct-FC",
     "sambanova/DeepSeek-V3.1-Terminus-FC",
-    "sambanova/Qwen3-235B-FC"
+    "sambanova/Qwen3-235B-FC",
+    "sambanova/DeepSeek-V3.2-FC"
   ],
   "groq": [
     "groq/llama-3.3-70b-versatile-FC",

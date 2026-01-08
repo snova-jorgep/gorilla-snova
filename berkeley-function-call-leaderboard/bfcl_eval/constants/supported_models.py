@@ -176,6 +176,7 @@ SUPPORTED_MODELS = [
     "sambanova/Meta-Llama-3.1-8B-Instruct-FC",
     "sambanova/DeepSeek-V3.1-Terminus-FC",
     "sambanova/Qwen3-235B-FC",
+    "sambanova/DeepSeek-V3.2-FC",
     "groq/llama-3.3-70b-versatile-FC",
     "groq/meta-llama/llama-4-scout-17b-16e-instruct-FC",
     "groq/meta-llama/llama-4-maverick-17b-128e-instruct-FC",

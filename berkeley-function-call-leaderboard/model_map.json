@@ -67,5 +67,7 @@
   "fireworks_accounts_fireworks_models_qwen3-235b-a22b-instruct-2507-FC": "Qwen3-235B",
   "cerebras_qwen-3-235b-a22b-instruct-2507-FC": "Qwen3-235B",
   "together_Qwen_Qwen3-235B-A22B-Instruct-2507-tput-FC": "Qwen3-235B",
-  "novita_qwen_qwen3-235b-a22b-instruct-2507-FC": "Qwen3-235B"
+  "novita_qwen_qwen3-235b-a22b-instruct-2507-FC": "Qwen3-235B",
+
+  "sambanova_DeepSeek-V3.2-FC": "DeepSeek-V3.2"
 }
