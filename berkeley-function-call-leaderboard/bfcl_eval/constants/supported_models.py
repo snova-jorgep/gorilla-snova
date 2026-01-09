@@ -201,6 +201,7 @@ SUPPORTED_MODELS = [
     "fireworks/accounts/fireworks/models/llama-v3p1-8b-instruct-FC",
     "fireworks/accounts/fireworks/models/deepseek-v3p1-terminus-FC",
     "fireworks/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507-FC",
+    "fireworks/fireworks/deepseek-v3p2-FC",
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
     "together/meta-llama/Llama-3.3-70B-Instruct-Turbo-FC",
     "together/meta-llama/Llama-4-Scout-17B-16E-Instruct-FC",
@@ -222,5 +223,6 @@ SUPPORTED_MODELS = [
     "novita/openai/gpt-oss-120b-FC",
     "novita/meta-llama/llama-3.1-8b-instruct-FC",
     "novita/deepseek/deepseek-v3.1-terminus-FC",
-    "novita/qwen/qwen3-235b-a22b-instruct-2507-FC"
+    "novita/qwen/qwen3-235b-a22b-instruct-2507-FC",
+    "novita/deepseek/deepseek-v3.2-FC"
 ]

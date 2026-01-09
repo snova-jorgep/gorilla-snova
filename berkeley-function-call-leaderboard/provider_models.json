@@ -40,7 +40,8 @@
     "fireworks/accounts/fireworks/models/gpt-oss-120b-FC",
     "fireworks/accounts/fireworks/models/llama-v3p1-8b-instruct-FC",
     "fireworks/accounts/fireworks/models/deepseek-v3p1-terminus-FC",
-    "fireworks/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507-FC"
+    "fireworks/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507-FC",
+    "fireworks/fireworks/deepseek-v3p2-FC"
   ],
   "together": [
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
@@ -66,6 +67,7 @@
     "novita/openai/gpt-oss-120b-FC",
     "novita/meta-llama/llama-3.1-8b-instruct-FC",
     "novita/deepseek/deepseek-v3.1-terminus-FC",
-    "novita/qwen/qwen3-235b-a22b-instruct-2507-FC"
+    "novita/qwen/qwen3-235b-a22b-instruct-2507-FC",
+    "novita/deepseek/deepseek-v3.2-FC"
   ]
 }
