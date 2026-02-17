@@ -177,6 +177,7 @@ SUPPORTED_MODELS = [
     "sambanova/DeepSeek-V3.1-Terminus-FC",
     "sambanova/Qwen3-235B-FC",
     "sambanova/DeepSeek-V3.2-FC",
+    "sambanova/MiniMax-M2.5-FC",
     "groq/llama-3.3-70b-versatile-FC",
     "groq/meta-llama/llama-4-scout-17b-16e-instruct-FC",
     "groq/meta-llama/llama-4-maverick-17b-128e-instruct-FC",
@@ -202,6 +203,7 @@ SUPPORTED_MODELS = [
     "fireworks/accounts/fireworks/models/deepseek-v3p1-terminus-FC",
     "fireworks/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507-FC",
     "fireworks/fireworks/deepseek-v3p2-FC",
+    "fireworks/fireworks/minimax-m2p5-FC",
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
     "together/meta-llama/Llama-3.3-70B-Instruct-Turbo-FC",
     "together/meta-llama/Llama-4-Scout-17B-16E-Instruct-FC",
@@ -213,6 +215,7 @@ SUPPORTED_MODELS = [
     "together/openai/gpt-oss-120b-FC",
     "together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-FC",
     "together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput-FC",
+    "together/MiniMaxAI/MiniMax-M2.5-FC",
     "novita/meta-llama/llama-3.3-70b-instruct-FC",
     "novita/meta-llama/llama-4-scout-17b-16e-instruct-FC",
     "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8-FC",
@@ -224,5 +227,6 @@ SUPPORTED_MODELS = [
     "novita/meta-llama/llama-3.1-8b-instruct-FC",
     "novita/deepseek/deepseek-v3.1-terminus-FC",
     "novita/qwen/qwen3-235b-a22b-instruct-2507-FC",
-    "novita/deepseek/deepseek-v3.2-FC"
+    "novita/deepseek/deepseek-v3.2-FC",
+    "novita/minimax/minimax-m2.5-FC"
 ]

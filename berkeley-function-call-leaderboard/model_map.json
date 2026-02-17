@@ -71,5 +71,11 @@
 
   "sambanova_DeepSeek-V3.2-FC": "DeepSeek-V3.2",
   "fireworks_fireworks_deepseek-v3p2-FC": "DeepSeek-V3.2",
-  "novita_deepseek_deepseek-v3.2-FC": "DeepSeek-V3.2"
+  "novita_deepseek_deepseek-v3.2-FC": "DeepSeek-V3.2",
+
+  "sambanova_MiniMax-M2.5-FC": "MiniMax-M2.5",
+  "fireworks_fireworks_minimax-m2p5-FC": "MiniMax-M2.5",
+  "together_MiniMaxAI_MiniMax-M2.5-FC": "MiniMax-M2.5",
+  "novita_minimax_minimax-m2.5-FC": "MiniMax-M2.5"
+
 }
