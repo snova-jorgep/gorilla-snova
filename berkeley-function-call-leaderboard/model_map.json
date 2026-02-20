@@ -76,6 +76,9 @@
   "sambanova_MiniMax-M2.5-FC": "MiniMax-M2.5",
   "fireworks_fireworks_minimax-m2p5-FC": "MiniMax-M2.5",
   "together_MiniMaxAI_MiniMax-M2.5-FC": "MiniMax-M2.5",
-  "novita_minimax_minimax-m2.5-FC": "MiniMax-M2.5"
+  "novita_minimax_minimax-m2.5-FC": "MiniMax-M2.5",
+
+  "corethink_DeepSeek-V3.1-FC": "DeepSeek-V3.1",
+  "corethink_DeepSeek-R1-0528-FC": "DeepSeek-R1-0528"
 
 }

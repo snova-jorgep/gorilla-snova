@@ -2418,7 +2418,31 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
-    
+    "corethink/DeepSeek-V3.1-FC": ModelConfig(
+        model_name="DeepSeek-V3.1-FC",
+        display_name="DeepSeek-V3.1 (FC)",
+        url="https://api.corethink.ai",
+        org="corethink",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=0,
+        output_price=0,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
+    "corethink/DeepSeek-R1-0528-FC": ModelConfig(
+        model_name="DeepSeek-R1-0528-FC",
+        display_name="DeepSeek-R1-0528 (FC)",
+        url="https://api.corethink.ai",
+        org="corethink",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=0,
+        output_price=0,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
+
     "Team-ACE/ToolACE-2-8B": ModelConfig(
         model_name="Team-ACE/ToolACE-2-8B",
         display_name="ToolACE-2-8B (FC)",

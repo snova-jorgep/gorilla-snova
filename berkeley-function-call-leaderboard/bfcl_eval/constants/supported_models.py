@@ -228,5 +228,7 @@ SUPPORTED_MODELS = [
     "novita/deepseek/deepseek-v3.1-terminus-FC",
     "novita/qwen/qwen3-235b-a22b-instruct-2507-FC",
     "novita/deepseek/deepseek-v3.2-FC",
-    "novita/minimax/minimax-m2.5-FC"
+    "novita/minimax/minimax-m2.5-FC",
+    "corethink/DeepSeek-V3.1-FC",
+    "corethink/DeepSeek-R1-0528-FC"
 ]

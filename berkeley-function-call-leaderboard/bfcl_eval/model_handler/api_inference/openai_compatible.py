@@ -22,27 +22,31 @@ class OpenaiCompatibleHandler(OpenAIHandler):
         if self.compatible_provider == "sambanova":
             base_url = "https://api.sambanova.ai/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("SAMBANOVA_API_KEY"),
-                                  max_retries=1, timeout=30)
+                                  max_retries=1, timeout=60)
         elif self.compatible_provider == "groq":
             base_url = "https://api.groq.com/openai/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("GROQ_API_KEY"),
-                                  max_retries=1, timeout=30)
+                                  max_retries=1, timeout=60)
         elif self.compatible_provider == "cerebras":
             base_url = "https://api.cerebras.ai/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("CEREBRAS_API_KEY"),
-                                  max_retries=1, timeout=30)
+                                  max_retries=1, timeout=60)
         elif self.compatible_provider == "fireworks":
             base_url = "https://api.fireworks.ai/inference/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("FIREWORKS_API_KEY"),
-                                  max_retries=1, timeout=30)
+                                  max_retries=1, timeout=60)
         elif self.compatible_provider == "together":
             base_url = "https://api.together.xyz/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("TOGETHER_API_KEY"),
-                                  max_retries=1, timeout=30)
+                                  max_retries=1, timeout=60)
         elif self.compatible_provider == "novita":
             base_url = "https://api.novita.ai/openai/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("NOVITA_API_KEY"),
-                                  max_retries=1, timeout=30)
+                                  max_retries=1, timeout=60)
+        elif self.compatible_provider == "corethink":
+            base_url = "https://api.corethink.ai/v1/sambanova/code"
+            self.client = OpenAI(base_url=base_url, api_key=os.getenv("CORETHINK_API_KEY"),
+                                  max_retries=1, timeout=60)
         else:
             raise(Exception(f"{self.compatible_provider} not implemented"))
 
