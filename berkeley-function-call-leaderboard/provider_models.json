@@ -11,7 +11,8 @@
     "sambanova/DeepSeek-V3.1-Terminus-FC",
     "sambanova/Qwen3-235B-FC",
     "sambanova/DeepSeek-V3.2-FC",
-    "sambanova/MiniMax-M2.5-FC"
+    "sambanova/MiniMax-M2.5-FC",
+    "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC"
   ],
   "groq": [
     "groq/llama-3.3-70b-versatile-FC",

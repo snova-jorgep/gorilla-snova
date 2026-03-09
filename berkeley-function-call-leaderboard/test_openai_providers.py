@@ -37,6 +37,7 @@ CSV_HEADERS = [
     "Qwen3-235B",
     "DeepSeek-V3.2",
     "MiniMax-M2.5",
+    "Llama-3.3-Swallow-70B-Instruct-v0.4",
 ]
 DEFAULT_SEED = 42
 DATASETS_PREFIX = "BFCL_v3_"

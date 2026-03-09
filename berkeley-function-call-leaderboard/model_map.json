@@ -74,6 +74,7 @@
   "novita_deepseek_deepseek-v3.2-FC": "DeepSeek-V3.2",
 
   "sambanova_MiniMax-M2.5-FC": "MiniMax-M2.5",
+  "sambanova_Llama-3.3-Swallow-70B-Instruct-v0.4-FC": "Llama-3.3-Swallow-70B-Instruct-v0.4",
   "fireworks_fireworks_minimax-m2p5-FC": "MiniMax-M2.5",
   "together_MiniMaxAI_MiniMax-M2.5-FC": "MiniMax-M2.5",
   "novita_minimax_minimax-m2.5-FC": "MiniMax-M2.5",
