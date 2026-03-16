@@ -1,17 +1,5 @@
 {
   "sambanova": [
-    "sambanova/Meta-Llama-3.3-70B-Instruct-FC",
-    "sambanova/Llama-4-Maverick-17B-128E-Instruct-FC",
-    "sambanova/DeepSeek-V3-0324-FC",
-    "sambanova/DeepSeek-R1-0528-FC",
-    "sambanova/DeepSeek-V3.1-FC",
-    "sambanova/Qwen3-32B-FC",
-    "sambanova/gpt-oss-120b-FC",
-    "sambanova/Meta-Llama-3.1-8B-Instruct-FC",
-    "sambanova/DeepSeek-V3.1-Terminus-FC",
-    "sambanova/Qwen3-235B-FC",
-    "sambanova/DeepSeek-V3.2-FC",
-    "sambanova/MiniMax-M2.5-FC",
     "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC"
   ],
   "groq": [

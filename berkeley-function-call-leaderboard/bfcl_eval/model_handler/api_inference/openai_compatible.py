@@ -20,7 +20,7 @@ class OpenaiCompatibleHandler(OpenAIHandler):
 
     def _init_client(self):
         if self.compatible_provider == "sambanova":
-            base_url = "https://api.sambanova.ai/v1"
+            base_url = "https://fast-cloud-snova-ai-dev-2-api.cloud.snova.ai/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("SAMBANOVA_API_KEY"),
                                   max_retries=1, timeout=60)
         elif self.compatible_provider == "groq":
@@ -49,6 +49,26 @@ class OpenaiCompatibleHandler(OpenAIHandler):
                                   max_retries=1, timeout=60)
         else:
             raise(Exception(f"{self.compatible_provider} not implemented"))
+
+    # def _query_FC(self, inference_data: dict):
+    #     message: list[dict] = inference_data["message"]
+    #     tools = inference_data["tools"]
+    #     inference_data["inference_input_log"] = {"message": repr(message), "tools": tools}
+
+    #     if len(tools) > 0:
+    #         return self.generate_with_backoff(
+    #             messages=message,
+    #             model=self.model_name.replace("-FC", ""),
+    #             temperature=0,
+    #             tools=tools,
+    #             tool_choice="auto",
+    #         )
+    #     else:
+    #         return self.generate_with_backoff(
+    #             messages=message,
+    #             model=self.model_name.replace("-FC", ""),
+    #             temperature=0,
+    #         )
 
     @retry_with_backoff(error_type=RateLimitError)
     def generate_with_backoff(self, **kwargs):
