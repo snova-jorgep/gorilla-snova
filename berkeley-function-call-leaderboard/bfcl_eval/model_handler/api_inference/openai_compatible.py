@@ -46,10 +46,11 @@ class OpenaiCompatibleHandler(OpenAIHandler):
         elif self.compatible_provider == "corethink":
             base_url = "https://api.corethink.ai/v1/sambanova/code"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("CORETHINK_API_KEY"),
-                                  max_retries=1, timeout=60)
+                                  max_retries=1, timeout=600)
         else:
             raise(Exception(f"{self.compatible_provider} not implemented"))
 
+    # enable when testing constrained decoding
     # def _query_FC(self, inference_data: dict):
     #     message: list[dict] = inference_data["message"]
     #     tools = inference_data["tools"]
@@ -61,7 +62,7 @@ class OpenaiCompatibleHandler(OpenAIHandler):
     #             model=self.model_name.replace("-FC", ""),
     #             temperature=0,
     #             tools=tools,
-    #             tool_choice="auto",
+    #             tool_choice="required",
     #         )
     #     else:
     #         return self.generate_with_backoff(
