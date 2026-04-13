@@ -74,10 +74,14 @@
   "novita_deepseek_deepseek-v3.2-FC": "DeepSeek-V3.2",
 
   "sambanova_MiniMax-M2.5-FC": "MiniMax-M2.5",
+  "sambanova_MiniMax-M2.7-FC": "MiniMax-M2.7",
   "sambanova_Llama-3.3-Swallow-70B-Instruct-v0.4-FC": "Llama-3.3-Swallow-70B-Instruct-v0.4",
   "fireworks_fireworks_minimax-m2p5-FC": "MiniMax-M2.5",
+  "fireworks_accounts_fireworks_models_minimax-m2p7-FC": "MiniMax-M2.7",
   "together_MiniMaxAI_MiniMax-M2.5-FC": "MiniMax-M2.5",
+  "together_MiniMaxAI_MiniMax-M2.7-FC": "MiniMax-M2.7",
   "novita_minimax_minimax-m2.5-FC": "MiniMax-M2.5",
+  "novita_minimax_minimax-m2.7-FC": "MiniMax-M2.7",
 
   "corethink_DeepSeek-V3.1-FC": "DeepSeek-V3.1",
   "corethink_DeepSeek-R1-0528-FC": "DeepSeek-R1-0528"
