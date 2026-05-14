@@ -39,6 +39,7 @@ CSV_HEADERS = [
     "MiniMax-M2.5",
     "MiniMax-M2.7",
     "Llama-3.3-Swallow-70B-Instruct-v0.4",
+    "Gemma-4-31B",
 ]
 DEFAULT_SEED = 42
 DATASETS_PREFIX = "BFCL_v3_"
