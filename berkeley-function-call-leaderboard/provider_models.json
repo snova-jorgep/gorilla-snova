@@ -13,7 +13,8 @@
     "sambanova/DeepSeek-V3.2-FC",
     "sambanova/MiniMax-M2.5-FC",
     "sambanova/MiniMax-M2.7-FC",
-    "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC"
+    "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC",
+    "sambanova/gemma-4-31b-it-FC"
   ],
   "groq": [
     "groq/llama-3.3-70b-versatile-FC",
@@ -46,7 +47,8 @@
     "fireworks/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507-FC",
     "fireworks/fireworks/deepseek-v3p2-FC",
     "fireworks/fireworks/minimax-m2p5-FC",
-    "fireworks/accounts/fireworks/models/minimax-m2p7-FC"
+    "fireworks/accounts/fireworks/models/minimax-m2p7-FC",
+    "fireworks/accounts/fireworks/models/gemma-4-31b-it-FC"
   ],
   "together": [
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
@@ -61,7 +63,8 @@
     "together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-FC",
     "together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput-FC",
     "together/MiniMaxAI/MiniMax-M2.5-FC",
-    "together/MiniMaxAI/MiniMax-M2.7-FC"
+    "together/MiniMaxAI/MiniMax-M2.7-FC",
+    "together/google/gemma-4-31B-it-FC"
   ],
   "novita": [
     "novita/meta-llama/llama-3.3-70b-instruct-FC",
@@ -77,7 +80,8 @@
     "novita/qwen/qwen3-235b-a22b-instruct-2507-FC",
     "novita/deepseek/deepseek-v3.2-FC",
     "novita/minimax/minimax-m2.5-FC",
-    "novita/minimax/minimax-m2.7-FC"
+    "novita/minimax/minimax-m2.7-FC",
+    "novita/google/gemma-4-31b-it-FC"
   ],
   "corethink": [
     "corethink/DeepSeek-V3.1-FC",
