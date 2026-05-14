@@ -235,5 +235,9 @@ SUPPORTED_MODELS = [
     "novita/minimax/minimax-m2.5-FC",
     "novita/minimax/minimax-m2.7-FC",
     "corethink/DeepSeek-V3.1-FC",
-    "corethink/DeepSeek-R1-0528-FC"
+    "corethink/DeepSeek-R1-0528-FC",
+    "sambanova/gemma-4-31b-it-FC",
+    "fireworks/accounts/fireworks/models/gemma-4-31b-it-FC",
+    "together/google/gemma-4-31B-it-FC",
+    "novita/google/gemma-4-31b-it-FC"
 ]
