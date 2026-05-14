@@ -84,6 +84,11 @@
   "novita_minimax_minimax-m2.7-FC": "MiniMax-M2.7",
 
   "corethink_DeepSeek-V3.1-FC": "DeepSeek-V3.1",
-  "corethink_DeepSeek-R1-0528-FC": "DeepSeek-R1-0528"
+  "corethink_DeepSeek-R1-0528-FC": "DeepSeek-R1-0528",
+
+  "sambanova_gemma-4-31b-it-FC": "Gemma-4-31B",
+  "fireworks_accounts_fireworks_models_gemma-4-31b-it-FC": "Gemma-4-31B",
+  "together_google_gemma-4-31B-it-FC": "Gemma-4-31B",
+  "novita_google_gemma-4-31b-it-FC": "Gemma-4-31B"
 
 }
