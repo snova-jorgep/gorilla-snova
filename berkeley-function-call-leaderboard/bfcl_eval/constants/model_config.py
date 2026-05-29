@@ -1818,8 +1818,8 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
-    "sambanova/gemma-4-31b-it-FC": ModelConfig(
-        model_name="gemma-4-31b-it-FC",
+    "sambanova/gemma-4-31B-it-FC": ModelConfig(
+        model_name="gemma-4-31B-it-FC",
         display_name="Gemma-4-31B (FC)",
         url="https://huggingface.co/google/gemma-4-31B",
         org="Google",
