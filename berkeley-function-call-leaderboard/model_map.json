@@ -52,6 +52,15 @@
   "groq_openai_gpt-oss-120b-FC":"gpt-oss-120b",
   "novita_openai_gpt-oss-120b-FC": "gpt-oss-120b",
 
+  "sambanova_gpt-oss-20b-FC": "gpt-oss-20b",
+  "fireworks_accounts_fireworks_models_gpt-oss-20b-FC": "gpt-oss-20b",
+  "together_openai_gpt-oss-20b-FC": "gpt-oss-20b",
+  "groq_openai_gpt-oss-20b-FC": "gpt-oss-20b",
+  "novita_openai_gpt-oss-20b-FC": "gpt-oss-20b",
+
+  "sambanova_Mistral-Large-3-675B-Instruct-2512-FC": "Mistral-Large-3",
+  "fireworks_accounts_fireworks_models_mistral-large-3-fp8-FC": "Mistral-Large-3",
+
   "sambanova_Meta-Llama-3.1-8B-Instruct-FC": "Meta-Llama-3.1-8B-Instruct",
   "fireworks_accounts_fireworks_models_llama-v3p1-8b-instruct-FC": "Meta-Llama-3.1-8B-Instruct",
   "cerebras_llama3.1-8b-FC": "Meta-Llama-3.1-8B-Instruct",
