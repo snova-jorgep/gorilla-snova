@@ -28,6 +28,8 @@ CSV_HEADERS = [
     "DeepSeek-V3.1",
     "DeepSeek-V3.1-Terminus",
     "gpt-oss-120b",
+    "gpt-oss-20b",
+    "Mistral-Large-3",
     "Llama-4-Maverick-17B-128E-Instruct",
     "Llama-4-Scout-17B-16E-Instruct",
     "Meta-Llama-3.1-405B-Instruct",
