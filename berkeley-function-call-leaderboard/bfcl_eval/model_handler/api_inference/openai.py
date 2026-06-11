@@ -27,6 +27,11 @@ class OpenAIHandler(BaseHandler):
     def _init_client(self):
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
+    def _get_cached_tokens(self, api_response) -> int:
+        # Safe read: returns 0 if prompt caching is disabled or field absent at any level
+        details = getattr(getattr(api_response, "usage", None), "prompt_tokens_details", None)
+        return getattr(details, "cached_tokens", None) or 0
+
     def decode_ast(self, result, language="Python"):
         if "FC" in self.model_name or self.is_fc_model:
             decoded_output = []
@@ -133,6 +138,7 @@ class OpenAIHandler(BaseHandler):
             "tool_call_ids": tool_call_ids,
             "input_token": api_response.usage.prompt_tokens,
             "output_token": api_response.usage.completion_tokens,
+            "cached_token": self._get_cached_tokens(api_response),
         }
 
     def add_first_turn_message_FC(
@@ -211,6 +217,7 @@ class OpenAIHandler(BaseHandler):
             "model_responses_message_for_chat_history": api_response.choices[0].message,
             "input_token": api_response.usage.prompt_tokens,
             "output_token": api_response.usage.completion_tokens,
+            "cached_token": self._get_cached_tokens(api_response),
         }
 
     def add_first_turn_message_prompting(

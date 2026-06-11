@@ -69,6 +69,7 @@ class BaseHandler:
 
         total_input_token_count: list[list[float]] = []
         total_output_token_count: list[list[float]] = []
+        total_cached_token_count: list[list[float]] = []
         total_latency: list[list[float]] = []
         all_model_response: list[list] = (
             []
@@ -148,6 +149,7 @@ class BaseHandler:
             }
             current_turn_input_token_count: list[float] = []
             current_turn_output_token_count: list[float] = []
+            current_turn_cached_token_count: list[float] = []
             current_turn_latency: list[float] = []
             current_turn_reasoning_content = []
 
@@ -185,6 +187,7 @@ class BaseHandler:
                 # Process the metadata
                 current_turn_input_token_count.append(model_response_data["input_token"])
                 current_turn_output_token_count.append(model_response_data["output_token"])
+                current_turn_cached_token_count.append(model_response_data.get("cached_token", 0))
                 current_turn_latency.append(query_latency)
 
                 current_turn_response.append(model_responses)
@@ -279,6 +282,7 @@ class BaseHandler:
             all_reasoning_content.append(current_turn_reasoning_content)
             total_input_token_count.append(current_turn_input_token_count)
             total_output_token_count.append(current_turn_output_token_count)
+            total_cached_token_count.append(current_turn_cached_token_count)
             total_latency.append(current_turn_latency)
 
             if not exclude_state_log:
@@ -307,6 +311,7 @@ class BaseHandler:
         metadata = {
             "input_token_count": total_input_token_count,
             "output_token_count": total_output_token_count,
+            "cached_token_count": total_cached_token_count,
             "latency": total_latency,
             "inference_log": all_inference_log,
         }
@@ -334,6 +339,7 @@ class BaseHandler:
 
         total_input_token_count: list[list[float]] = []
         total_output_token_count: list[list[float]] = []
+        total_cached_token_count: list[list[float]] = []
         total_latency: list[list[float]] = []
         # The model response that will be used for later evaluation
         all_model_response: list[list] = []
@@ -410,6 +416,7 @@ class BaseHandler:
             }
             current_turn_input_token_count: list[float] = []
             current_turn_output_token_count: list[float] = []
+            current_turn_cached_token_count: list[float] = []
             current_turn_latency: list[float] = []
 
             count = 0
@@ -446,6 +453,7 @@ class BaseHandler:
                 # Process the metadata
                 current_turn_input_token_count.append(model_response_data["input_token"])
                 current_turn_output_token_count.append(model_response_data["output_token"])
+                current_turn_cached_token_count.append(model_response_data.get("cached_token", 0))
                 current_turn_latency.append(query_latency)
 
                 current_turn_response.append(model_responses)
@@ -539,6 +547,7 @@ class BaseHandler:
             all_inference_log.append(current_turn_inference_log)
             total_input_token_count.append(current_turn_input_token_count)
             total_output_token_count.append(current_turn_output_token_count)
+            total_cached_token_count.append(current_turn_cached_token_count)
             total_latency.append(current_turn_latency)
 
             if not exclude_state_log:
@@ -567,6 +576,7 @@ class BaseHandler:
         metadata = {
             "input_token_count": total_input_token_count,
             "output_token_count": total_output_token_count,
+            "cached_token_count": total_cached_token_count,
             "latency": total_latency,
             "inference_log": all_inference_log,
         }
@@ -606,6 +616,7 @@ class BaseHandler:
             ]
         metadata["input_token_count"] = model_response_data["input_token"]
         metadata["output_token_count"] = model_response_data["output_token"]
+        metadata["cached_token_count"] = model_response_data.get("cached_token", 0)
         metadata["latency"] = query_latency
 
         if "reasoning_content" in model_response_data:
@@ -638,6 +649,7 @@ class BaseHandler:
             ]
         metadata["input_token_count"] = model_response_data["input_token"]
         metadata["output_token_count"] = model_response_data["output_token"]
+        metadata["cached_token_count"] = model_response_data.get("cached_token", 0)
         metadata["latency"] = query_latency
 
         if "reasoning_content" in model_response_data:

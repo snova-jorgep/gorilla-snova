@@ -14,6 +14,7 @@ from typing import List
 import pandas as pd
 from dotenv import load_dotenv
 
+from cache_metrics_report import generate_cache_metrics_report
 from generate_subsets import generate_subset
 from utils import upload_to_s3
 
@@ -83,7 +84,7 @@ def generate_summary_tables(scores_path: str, summaries_paths):
     for test_type in df["test_suite_name"].dropna().unique():
         test_type = test_type.split(" - ")[-1]
         filtered = df_long[
-            df_long["test_suite_name"].str.contains(test_type, case=False)
+            df_long["test_suite_name"].str.endswith(f" - {test_type}", na=False)
         ]
         # Convert Accuracy to numeric just in case
         filtered["Accuracy"] = pd.to_numeric(filtered["Accuracy"], errors="coerce")
@@ -280,6 +281,11 @@ def main(
         concurrent.futures.wait(futures)
 
     generate_summary_tables(scores_csv_file_path, results_dir)
+    generate_cache_metrics_report(
+        result_base_dir=base_dir / "result",
+        date=date,
+        run_id=run_id,
+    )
 
 
 if __name__ == "__main__":
