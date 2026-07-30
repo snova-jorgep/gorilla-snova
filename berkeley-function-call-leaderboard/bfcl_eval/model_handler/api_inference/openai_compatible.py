@@ -22,12 +22,14 @@ class OpenaiCompatibleHandler(OpenAIHandler):
         self.compatible_provider=model_name.split('/')[0]
         model_name = '/'.join([sec for sec in model_name.split('/')[1:]])
         super().__init__(model_name, temperature)
+        # Hard-coded temperature for this run (overrides the bfcl --temperature default of 0.001)
+        self.temperature = 0
         if self.compatible_provider in PROVIDER_MODEL_STYLES:
             self.model_style = PROVIDER_MODEL_STYLES[self.compatible_provider]
 
     def _init_client(self):
         if self.compatible_provider == "sambanova":
-            base_url = "https://fast-cloud-snova-ai-dev-4-api.cloud.snova.ai/v1"
+            base_url = "https://api.sambanova.ai/v1"
             self.client = OpenAI(base_url=base_url, api_key=os.getenv("SAMBANOVA_API_KEY"),
                                   max_retries=1, timeout=60)
         elif self.compatible_provider == "groq":

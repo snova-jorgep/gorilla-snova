@@ -15,6 +15,7 @@ import pandas as pd
 from dotenv import load_dotenv
 
 from cache_metrics_report import generate_cache_metrics_report
+from latency_metrics_report import generate_latency_metrics_report
 from generate_subsets import generate_subset
 from utils import upload_to_s3
 
@@ -282,6 +283,11 @@ def main(
 
     generate_summary_tables(scores_csv_file_path, results_dir)
     generate_cache_metrics_report(
+        result_base_dir=base_dir / "result",
+        date=date,
+        run_id=run_id,
+    )
+    generate_latency_metrics_report(
         result_base_dir=base_dir / "result",
         date=date,
         run_id=run_id,
