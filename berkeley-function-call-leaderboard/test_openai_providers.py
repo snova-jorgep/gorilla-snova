@@ -14,6 +14,12 @@ from typing import List
 import pandas as pd
 from dotenv import load_dotenv
 
+from config_env import (
+    internal_providers_from,
+    resolve_config_env,
+    row_config_env,
+    write_sidecar,
+)
 from cache_metrics_report import generate_cache_metrics_report
 from latency_metrics_report import generate_latency_metrics_report
 from generate_subsets import generate_subset
@@ -66,7 +72,7 @@ def load_json(file_path):
         return json.load(f)
 
 
-def generate_summary_tables(scores_path: str, summaries_paths):
+def generate_summary_tables(scores_path: str, summaries_paths, config_env, internal_providers):
     df = pd.read_csv(scores_path, sep=";")
     df = df.dropna(subset=["provider", "test_suite_name"], how="all")
 
@@ -95,6 +101,11 @@ def generate_summary_tables(scores_path: str, summaries_paths):
             filtered.groupby(["date", "provider", "model"], as_index=False)
             .agg({"Accuracy": "mean"})
             .sort_values(by=["provider", "model"])
+        )
+
+        # config_env must be the LAST column: the Athena regex expects it there.
+        summary["config_env"] = summary["provider"].apply(
+            lambda p: row_config_env(config_env, p, internal_providers)
         )
 
         # Save to CSV
@@ -237,7 +248,11 @@ def main(
     subset_size: int = 100,
     providers_path: str = None,
     models_mapping_path: str = None,
+    config_env: str = None,
 ):
+    resolved_config_env = resolve_config_env(config_env, None)
+    internal_providers = internal_providers_from(None)
+    print(f"config_env for this run: {resolved_config_env}")
     if providers_path is None:
         providers_path = base_dir / "provider_models.json"
     providers = load_json(providers_path)
@@ -281,7 +296,15 @@ def main(
         ]
         concurrent.futures.wait(futures)
 
-    generate_summary_tables(scores_csv_file_path, results_dir)
+    generate_summary_tables(
+        scores_csv_file_path,
+        scores_csv_file_path.parent,  # summaries belong in results/<date>/, next to scores.csv
+        resolved_config_env,
+        internal_providers,
+    )
+
+    # Persist config_env next to the run so later report scripts can recover it.
+    write_sidecar(scores_csv_file_path.parent, resolved_config_env, {})
     generate_cache_metrics_report(
         result_base_dir=base_dir / "result",
         date=date,
@@ -320,6 +343,15 @@ if __name__ == "__main__":
         default=None,
         help="Path to JSON file with model mapping",
     )
+    parser.add_argument(
+        "--config-env",
+        type=str,
+        default=None,
+        help="Config env id for this run, e.g. sn50-tp8dp2-mtp. "
+             "Defaults to default_config_env from config_envs.yaml (cloud-prod). "
+             "Must match the endpoint set in "
+             "bfcl_eval/model_handler/api_inference/openai_compatible.py::_init_client",
+    )
     args = parser.parse_args()
 
     start_time = time.time()
@@ -328,6 +360,7 @@ if __name__ == "__main__":
         subset_size=args.subset_size,
         providers_path=args.providers_path,
         models_mapping_path=args.models_mapping_path,
+        config_env=args.config_env,
     )
     end_time = time.time()
     execution_time = end_time - start_time
