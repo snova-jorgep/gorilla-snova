@@ -48,6 +48,7 @@ CSV_HEADERS = [
     "DeepSeek-V3.2",
     "MiniMax-M2.5",
     "MiniMax-M2.7",
+    "MiniMax-M3",
     "Llama-3.3-Swallow-70B-Instruct-v0.4",
     "Gemma-4-31B",
 ]

@@ -94,6 +94,11 @@
   "together_MiniMaxAI_MiniMax-M2.7-FC": "MiniMax-M2.7",
   "novita_minimax_minimax-m2.7-FC": "MiniMax-M2.7",
 
+  "sambanova_MiniMax-M3-FC": "MiniMax-M3",
+  "fireworks_accounts_fireworks_models_minimax-m3-FC": "MiniMax-M3",
+  "together_MiniMaxAI_MiniMax-M3-FC": "MiniMax-M3",
+  "novita_minimax_minimax-m3-FC": "MiniMax-M3",
+
   "corethink_DeepSeek-V3.1-FC": "DeepSeek-V3.1",
   "corethink_DeepSeek-R1-0528-FC": "DeepSeek-R1-0528",
 
