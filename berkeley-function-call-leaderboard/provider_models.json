@@ -16,6 +16,7 @@
     "sambanova/MiniMax-M2.5-FC",
     "sambanova/MiniMax-M2.7-FC",
     "sambanova/MiniMax-M3-FC",
+    "sambanova/GLM-5.2-FC",
     "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC",
     "sambanova/gemma-4-31B-it-FC"
   ],
@@ -55,6 +56,7 @@
     "fireworks/fireworks/minimax-m2p5-FC",
     "fireworks/accounts/fireworks/models/minimax-m2p7-FC",
     "fireworks/accounts/fireworks/models/minimax-m3-FC",
+    "fireworks/accounts/fireworks/models/glm-5p2-FC",
     "fireworks/accounts/fireworks/models/gemma-4-31b-it-FC"
   ],
   "together": [
@@ -73,6 +75,7 @@
     "together/MiniMaxAI/MiniMax-M2.5-FC",
     "together/MiniMaxAI/MiniMax-M2.7-FC",
     "together/MiniMaxAI/MiniMax-M3-FC",
+    "together/zai-org/GLM-5.2-FC",
     "together/google/gemma-4-31B-it-FC"
   ],
   "novita": [
@@ -92,6 +95,7 @@
     "novita/minimax/minimax-m2.5-FC",
     "novita/minimax/minimax-m2.7-FC",
     "novita/minimax/minimax-m3-FC",
+    "novita/zai-org/glm-5.2-FC",
     "novita/google/gemma-4-31b-it-FC"
   ],
   "corethink": [
