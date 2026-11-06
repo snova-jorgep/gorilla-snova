@@ -21,7 +21,8 @@
     "sambanova/GLM-5.3-FC",
     "sambanova/Kimi-K3-FC",
     "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC",
-    "sambanova/gemma-4-31B-it-FC"
+    "sambanova/gemma-4-31B-it-FC",
+    "sambanova/Arcee-Trinity-FC"
   ],
   "groq": [
     "groq/llama-3.3-70b-versatile-FC",

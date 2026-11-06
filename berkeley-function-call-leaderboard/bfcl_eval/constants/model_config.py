@@ -1914,6 +1914,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
+    "sambanova/Arcee-Trinity-FC": ModelConfig(
+        model_name="Arcee-Trinity-FC",
+        display_name="Arcee-Trinity (FC)",
+        url="https://huggingface.co/arcee-ai",
+        org="Arcee",
+        license="Proprietary",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=None,
+        output_price=None,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
     "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC": ModelConfig(
         model_name="Llama-3.3-Swallow-70B-Instruct-v0.4-FC",
         display_name="Llama-3.3-Swallow-70B-Instruct-v0.4 (FC)",

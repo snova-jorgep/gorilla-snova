@@ -188,6 +188,7 @@ SUPPORTED_MODELS = [
     "sambanova/Kimi-K3-FC",
     "sambanova/Llama-3.3-Swallow-70B-Instruct-v0.4-FC",
     "sambanova/gemma-4-31B-it-FC",
+    "sambanova/Arcee-Trinity-FC",
     "groq/llama-3.3-70b-versatile-FC",
     "groq/meta-llama/llama-4-scout-17b-16e-instruct-FC",
     "groq/meta-llama/llama-4-maverick-17b-128e-instruct-FC",
