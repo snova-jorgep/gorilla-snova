@@ -122,6 +122,8 @@
   "together_google_gemma-4-31B-it-FC": "Gemma-4-31B",
   "novita_google_gemma-4-31b-it-FC": "Gemma-4-31B",
 
-  "sambanova_Arcee-Trinity-FC": "Arcee-Trinity"
+  "sambanova_Arcee-Trinity-FC": "Arcee-Trinity",
+
+  "fireworks_accounts_fireworks_models_nemotron-3-ultra-nvfp4-FC": "Nemotron-3-Ultra"
 
 }

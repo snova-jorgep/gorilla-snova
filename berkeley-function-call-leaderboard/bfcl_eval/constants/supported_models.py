@@ -225,6 +225,7 @@ SUPPORTED_MODELS = [
     "fireworks/accounts/fireworks/models/glm-5p3-FC",
     "fireworks/accounts/fireworks/models/kimi-k3-FC",
     "fireworks/accounts/fireworks/models/gemma-4-31b-it-FC",
+    "fireworks/accounts/fireworks/models/nemotron-3-ultra-nvfp4-FC",
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
     "together/meta-llama/Llama-3.3-70B-Instruct-Turbo-FC",
     "together/meta-llama/Llama-4-Scout-17B-16E-Instruct-FC",

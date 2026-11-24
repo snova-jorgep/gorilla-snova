@@ -64,7 +64,8 @@
     "fireworks/accounts/fireworks/models/glm-5p2-FC",
     "fireworks/accounts/fireworks/models/glm-5p3-FC",
     "fireworks/accounts/fireworks/models/kimi-k3-FC",
-    "fireworks/accounts/fireworks/models/gemma-4-31b-it-FC"
+    "fireworks/accounts/fireworks/models/gemma-4-31b-it-FC",
+    "fireworks/accounts/fireworks/models/nemotron-3-ultra-nvfp4-FC"
   ],
   "together": [
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",

@@ -2370,6 +2370,18 @@ local_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
+    "fireworks/accounts/fireworks/models/nemotron-3-ultra-nvfp4-FC": ModelConfig(
+        model_name="accounts/fireworks/models/nemotron-3-ultra-nvfp4-FC",
+        display_name="accounts/fireworks/models/nemotron-3-ultra-nvfp4 (FC)",
+        url="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+        org="NVIDIA",
+        license="NVIDIA Open Model License",
+        model_handler=OpenaiCompatibleHandler,
+        input_price=None,
+        output_price=None,
+        is_fc_model=True,
+        underscore_to_dot=True,
+    ),
     "together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC": ModelConfig(
         model_name="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo-FC",
         display_name="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo (FC)",

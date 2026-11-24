@@ -56,6 +56,7 @@ CSV_HEADERS = [
     "Llama-3.3-Swallow-70B-Instruct-v0.4",
     "Gemma-4-31B",
     "Arcee-Trinity",
+    "Nemotron-3-Ultra",
 ]
 DEFAULT_SEED = 42
 DATASETS_PREFIX = "BFCL_v3_"
