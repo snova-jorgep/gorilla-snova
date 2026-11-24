@@ -78,6 +78,7 @@ def convert_to_tool(functions, mapping, model_style):
             ModelStyle.COHERE,
             ModelStyle.AMAZON,
             ModelStyle.NOVITA_AI,
+            ModelStyle.FIREWORK_AI,
         ]:
             # OAI does not support "." in the function name so we replace it with "_". ^[a-zA-Z0-9_-]{1,64}$ is the regex for the name.
             item["name"] = re.sub(r"\.", "_", item["name"])
